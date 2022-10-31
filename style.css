@@ -1,0 +1,33 @@
+.box{
+   width: 700px;
+   height: 800px;
+   border: 1px solid black;
+   border-radius: 20px;
+   margin: auto;
+   align-items: center;
+   background-color: rgb(26 181 205 / 36%);
+   margin-top: 30px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 60px;
+}
+p{
+    margin:0px 0px 0px 30px;
+    font-size: 25px;
+
+}
+input{
+    margin: 0px 0px 25px 30px;
+    width: 450px;
+    font-size: 25px;
+}
+#Calculate{
+    margin:0px 30px 0px 30px;
+    width: 600px;
+}
+#Reset{
+    margin:0px 80px 0px 80px;
+    width: 500px;
+}
+

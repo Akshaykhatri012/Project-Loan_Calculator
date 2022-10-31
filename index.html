@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compound Interest App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="box">
+    <h2 ><b> Loan EMI Calculator</b></h2>
+ <form action=".php">
+ <p class="para-class">Principle</p>   <input type="number" placeholder="Enter Principle" id="Principle">
+ <p class="para-class">Time</p>   <input type="number" placeholder="Time Period (in Years)" id="Time">
+ <p class="para-class">Rate of Interest</p>   <input type="number" placeholder="Interest (in %)" id="Rate"> <br> <br>
+
+ <button type="button" class="btn btn-dark btn-lg btn-block" id="Calculate">Calculate</button>
+
+ <p><b> (&#8377) Monthly EMI :</b>  <span id="Emi"> </span></p>
+ <p><b>(&#8377) Interest Payable : </b><span id="Int"> </span></p>
+ <p><b>(&#8377) Total Amount Payable : </b> <span id="Amt"> </span></p>
+
+ <button type="reset" class="btn btn-dark btn-lg btn-block" id="Reset">Reset</button>
+ </div>
+ </form>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
